@@ -1,0 +1,59 @@
+.gameIntro{
+  background: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1{
+    font-size: 3em;
+    font-family: initial;
+    color: lime;
+    font-family: 'Press Start 2P', cursive;
+  }
+
+  button{
+    border: 2px solid lime;
+    color: lime;
+    background: none;
+    font-size: 1em;
+    padding: 1em;
+    border-radius: 5%;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+  }
+}
+
+.gameContainer {
+  background: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.upcomingContainer{
+    flex:1;
+    margin-bottom: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  
+    h2{
+      color: white;
+      text-align: center;
+      color: lime;
+      text-align: center;
+      width: 50%;
+    }
+    h3{
+      color: lime;
+      margin-right:  2em;
+      line-height: 1.5em;
+    }
+  }

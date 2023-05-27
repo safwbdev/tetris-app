@@ -1,0 +1,26 @@
+.boardContainer{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    h2{
+      color: white;
+      text-align: center;
+      color: lime;
+      text-align: left;
+      width: 60%;
+    }
+  }
+
+.board {
+    border: 2px solid black;
+    user-select: none;
+    margin: auto;
+    grid-area: game;
+  }
+
+  .row {
+    display: flex;
+  }
