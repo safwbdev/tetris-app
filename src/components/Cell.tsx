@@ -1,5 +1,5 @@
 import { CellOptions } from "../types"
-import style from './Cell.module.scss';
+// import style from './Cell.module.scss';
 interface Props{
     type:CellOptions
 }
